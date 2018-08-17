@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE15CA821255E5400205AC8 /* DistanceConvertServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE15CA721255E5400205AC8 /* DistanceConvertServices.swift */; };
+		1AE15CAA2125773200205AC8 /* SpeedConvertServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE15CA92125773200205AC8 /* SpeedConvertServices.swift */; };
+		8B1DF0542122A0A600910200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0532122A0A600910200 /* AppDelegate.swift */; };
+		8B1DF0562122A0A600910200 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0552122A0A600910200 /* DistanceViewController.swift */; };
+		8B1DF0582122A0A700910200 /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0572122A0A600910200 /* SpeedViewController.swift */; };
+		8B1DF05B2122A0A700910200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DF0592122A0A700910200 /* Main.storyboard */; };
+		8B1DF05D2122A0A700910200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DF05C2122A0A700910200 /* Assets.xcassets */; };
+		8B1DF0602122A0A700910200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DF05E2122A0A700910200 /* LaunchScreen.storyboard */; };
+		8B1DF06B2122A0A700910200 /* ConveterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF06A2122A0A700910200 /* ConveterTests.swift */; };
+		8B1DF0762122A0A700910200 /* ConveterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0752122A0A700910200 /* ConveterUITests.swift */; };
+		8B1DF0842122EA1900910200 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0832122EA1900910200 /* WeightViewController.swift */; };
+		8B1DF0872122F77C00910200 /* WeightConvertServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DF0862122F77C00910200 /* WeightConvertServices.swift */; };
+		8B4139562123FB51002AEB56 /* TemperatureConvertServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4139552123FB51002AEB56 /* TemperatureConvertServices.swift */; };
+		8B4139582123FE96002AEB56 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4139572123FE96002AEB56 /* TemperatureViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B1DF0672122A0A700910200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1DF0482122A0A600910200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1DF04F2122A0A600910200;
+			remoteInfo = Conveter;
+		};
+		8B1DF0722122A0A700910200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1DF0482122A0A600910200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1DF04F2122A0A600910200;
+			remoteInfo = Conveter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE15CA721255E5400205AC8 /* DistanceConvertServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConvertServices.swift; sourceTree = "<group>"; };
+		1AE15CA92125773200205AC8 /* SpeedConvertServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedConvertServices.swift; sourceTree = "<group>"; };
+		8B1DF0502122A0A600910200 /* Conveter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conveter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DF0532122A0A600910200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B1DF0552122A0A600910200 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		8B1DF0572122A0A600910200 /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
+		8B1DF05A2122A0A700910200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1DF05C2122A0A700910200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1DF05F2122A0A700910200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B1DF0612122A0A700910200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1DF0662122A0A700910200 /* ConveterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConveterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DF06A2122A0A700910200 /* ConveterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveterTests.swift; sourceTree = "<group>"; };
+		8B1DF06C2122A0A700910200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1DF0712122A0A700910200 /* ConveterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConveterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DF0752122A0A700910200 /* ConveterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveterUITests.swift; sourceTree = "<group>"; };
+		8B1DF0772122A0A700910200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1DF0832122EA1900910200 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		8B1DF0862122F77C00910200 /* WeightConvertServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConvertServices.swift; sourceTree = "<group>"; };
+		8B4139552123FB51002AEB56 /* TemperatureConvertServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConvertServices.swift; sourceTree = "<group>"; };
+		8B4139572123FE96002AEB56 /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1DF04D2122A0A600910200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF0632122A0A700910200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF06E2122A0A700910200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1DF0472122A0A600910200 = {
+			isa = PBXGroup;
+			children = (
+				8B1DF0852122F71B00910200 /* Services */,
+				8B1DF0522122A0A600910200 /* Conveter */,
+				8B1DF0692122A0A700910200 /* ConveterTests */,
+				8B1DF0742122A0A700910200 /* ConveterUITests */,
+				8B1DF0512122A0A600910200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1DF0512122A0A600910200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF0502122A0A600910200 /* Conveter.app */,
+				8B1DF0662122A0A700910200 /* ConveterTests.xctest */,
+				8B1DF0712122A0A700910200 /* ConveterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1DF0522122A0A600910200 /* Conveter */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF0832122EA1900910200 /* WeightViewController.swift */,
+				8B1DF0532122A0A600910200 /* AppDelegate.swift */,
+				8B1DF0552122A0A600910200 /* DistanceViewController.swift */,
+				8B1DF0572122A0A600910200 /* SpeedViewController.swift */,
+				8B4139572123FE96002AEB56 /* TemperatureViewController.swift */,
+				8B1DF0592122A0A700910200 /* Main.storyboard */,
+				8B1DF05C2122A0A700910200 /* Assets.xcassets */,
+				8B1DF05E2122A0A700910200 /* LaunchScreen.storyboard */,
+				8B1DF0612122A0A700910200 /* Info.plist */,
+			);
+			path = Conveter;
+			sourceTree = "<group>";
+		};
+		8B1DF0692122A0A700910200 /* ConveterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF06A2122A0A700910200 /* ConveterTests.swift */,
+				8B1DF06C2122A0A700910200 /* Info.plist */,
+			);
+			path = ConveterTests;
+			sourceTree = "<group>";
+		};
+		8B1DF0742122A0A700910200 /* ConveterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF0752122A0A700910200 /* ConveterUITests.swift */,
+				8B1DF0772122A0A700910200 /* Info.plist */,
+			);
+			path = ConveterUITests;
+			sourceTree = "<group>";
+		};
+		8B1DF0852122F71B00910200 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8B1DF0862122F77C00910200 /* WeightConvertServices.swift */,
+				8B4139552123FB51002AEB56 /* TemperatureConvertServices.swift */,
+				1AE15CA721255E5400205AC8 /* DistanceConvertServices.swift */,
+				1AE15CA92125773200205AC8 /* SpeedConvertServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1DF04F2122A0A600910200 /* Conveter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1DF07A2122A0A700910200 /* Build configuration list for PBXNativeTarget "Conveter" */;
+			buildPhases = (
+				8B1DF04C2122A0A600910200 /* Sources */,
+				8B1DF04D2122A0A600910200 /* Frameworks */,
+				8B1DF04E2122A0A600910200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conveter;
+			productName = Conveter;
+			productReference = 8B1DF0502122A0A600910200 /* Conveter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B1DF0652122A0A700910200 /* ConveterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1DF07D2122A0A700910200 /* Build configuration list for PBXNativeTarget "ConveterTests" */;
+			buildPhases = (
+				8B1DF0622122A0A700910200 /* Sources */,
+				8B1DF0632122A0A700910200 /* Frameworks */,
+				8B1DF0642122A0A700910200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1DF0682122A0A700910200 /* PBXTargetDependency */,
+			);
+			name = ConveterTests;
+			productName = ConveterTests;
+			productReference = 8B1DF0662122A0A700910200 /* ConveterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B1DF0702122A0A700910200 /* ConveterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1DF0802122A0A700910200 /* Build configuration list for PBXNativeTarget "ConveterUITests" */;
+			buildPhases = (
+				8B1DF06D2122A0A700910200 /* Sources */,
+				8B1DF06E2122A0A700910200 /* Frameworks */,
+				8B1DF06F2122A0A700910200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1DF0732122A0A700910200 /* PBXTargetDependency */,
+			);
+			name = ConveterUITests;
+			productName = ConveterUITests;
+			productReference = 8B1DF0712122A0A700910200 /* ConveterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1DF0482122A0A600910200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Harsha Priyankara";
+				TargetAttributes = {
+					8B1DF04F2122A0A600910200 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8B1DF0652122A0A700910200 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B1DF04F2122A0A600910200;
+					};
+					8B1DF0702122A0A700910200 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B1DF04F2122A0A600910200;
+					};
+				};
+			};
+			buildConfigurationList = 8B1DF04B2122A0A600910200 /* Build configuration list for PBXProject "Conveter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1DF0472122A0A600910200;
+			productRefGroup = 8B1DF0512122A0A600910200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1DF04F2122A0A600910200 /* Conveter */,
+				8B1DF0652122A0A700910200 /* ConveterTests */,
+				8B1DF0702122A0A700910200 /* ConveterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1DF04E2122A0A600910200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1DF0602122A0A700910200 /* LaunchScreen.storyboard in Resources */,
+				8B1DF05D2122A0A700910200 /* Assets.xcassets in Resources */,
+				8B1DF05B2122A0A700910200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF0642122A0A700910200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF06F2122A0A700910200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1DF04C2122A0A600910200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE15CA821255E5400205AC8 /* DistanceConvertServices.swift in Sources */,
+				8B4139562123FB51002AEB56 /* TemperatureConvertServices.swift in Sources */,
+				8B1DF0842122EA1900910200 /* WeightViewController.swift in Sources */,
+				8B1DF0582122A0A700910200 /* SpeedViewController.swift in Sources */,
+				8B1DF0542122A0A600910200 /* AppDelegate.swift in Sources */,
+				8B1DF0872122F77C00910200 /* WeightConvertServices.swift in Sources */,
+				1AE15CAA2125773200205AC8 /* SpeedConvertServices.swift in Sources */,
+				8B4139582123FE96002AEB56 /* TemperatureViewController.swift in Sources */,
+				8B1DF0562122A0A600910200 /* DistanceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF0622122A0A700910200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1DF06B2122A0A700910200 /* ConveterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1DF06D2122A0A700910200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1DF0762122A0A700910200 /* ConveterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B1DF0682122A0A700910200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1DF04F2122A0A600910200 /* Conveter */;
+			targetProxy = 8B1DF0672122A0A700910200 /* PBXContainerItemProxy */;
+		};
+		8B1DF0732122A0A700910200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1DF04F2122A0A600910200 /* Conveter */;
+			targetProxy = 8B1DF0722122A0A700910200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B1DF0592122A0A700910200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1DF05A2122A0A700910200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B1DF05E2122A0A700910200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1DF05F2122A0A700910200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B1DF0782122A0A700910200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B1DF0792122A0A700910200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1DF07B2122A0A700910200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Conveter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.Conveter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B1DF07C2122A0A700910200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Conveter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.Conveter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B1DF07E2122A0A700910200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConveterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.ConveterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conveter.app/Conveter";
+			};
+			name = Debug;
+		};
+		8B1DF07F2122A0A700910200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConveterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.ConveterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conveter.app/Conveter";
+			};
+			name = Release;
+		};
+		8B1DF0812122A0A700910200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConveterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.ConveterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conveter;
+			};
+			name = Debug;
+		};
+		8B1DF0822122A0A700910200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConveterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SLIIT-MADD.ConveterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conveter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1DF04B2122A0A600910200 /* Build configuration list for PBXProject "Conveter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1DF0782122A0A700910200 /* Debug */,
+				8B1DF0792122A0A700910200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1DF07A2122A0A700910200 /* Build configuration list for PBXNativeTarget "Conveter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1DF07B2122A0A700910200 /* Debug */,
+				8B1DF07C2122A0A700910200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1DF07D2122A0A700910200 /* Build configuration list for PBXNativeTarget "ConveterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1DF07E2122A0A700910200 /* Debug */,
+				8B1DF07F2122A0A700910200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1DF0802122A0A700910200 /* Build configuration list for PBXNativeTarget "ConveterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1DF0812122A0A700910200 /* Debug */,
+				8B1DF0822122A0A700910200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1DF0482122A0A600910200 /* Project object */;
+}
