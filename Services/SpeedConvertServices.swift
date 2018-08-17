@@ -9,15 +9,15 @@
 struct SpeedConvertor {
     
     func feetToMeter(value: Double) -> String {
-        let convertedValue = value*0.3048
+        let convertedValue = value * 0.00508
         return String(convertedValue)
     }
     func feetToKm(value: Double) -> String {
-        let convertedValue = value * 1.09728
+        let convertedValue = value * 0.018288
         return String(convertedValue)
     }
     func feetToMile(value: Double) -> String {
-        let convertedValue = value*0.681818
+        let convertedValue = value*0.0113636
         return String(convertedValue)
     }
     
@@ -27,7 +27,7 @@ struct SpeedConvertor {
         return String(convertedValue)
     }
     func kmTofeet(value: Double) -> String {
-        let convertedValue = value*0.91134
+        let convertedValue = value*54.6807
         return String(convertedValue)
     }
     func kmToMiles(value: Double) -> String {
@@ -38,7 +38,7 @@ struct SpeedConvertor {
     
     
     func mileToFeet(value: Double) -> String {
-        let convertedValue = value * 1.4666
+        let convertedValue = value * 88
         return String(convertedValue)
     }
     func mileTokm(value: Double) -> String {
@@ -53,7 +53,7 @@ struct SpeedConvertor {
     
     
     func mToFeet(value: Double) -> String {
-        let convertedValue = value * 3.28084
+        let convertedValue = value * 196.85
         return String(convertedValue)
     }
     func mTokm(value: Double) -> String {

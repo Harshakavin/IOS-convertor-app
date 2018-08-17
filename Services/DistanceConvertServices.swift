@@ -46,19 +46,19 @@ struct DistanceConvertor {
    
     
     func footToMetre(value: Double) -> String {
-        let metre: Double = value * 1000.0;
+        let metre: Double = value * 0.3048
         return String(metre)
     }
     func footToKilometre(value: Double) -> String {
-        let foot: Double = value * 3280.84;
-        return String(foot)
+        let kilometre: Double = value * 0.0003048
+        return String(kilometre)
     }
     func footToYard(value: Double) -> String {
-        let yard: Double = value * 1093.613298
+        let yard: Double = value * 0.333333
         return String(yard)
     }
     func footToMile(value: Double) -> String {
-        let mile: Double = value * 0.621371
+        let mile: Double = value * 0.00018939375
         return String(mile)
     }
     
